@@ -15,6 +15,21 @@ import 'angular2/router';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/mergeMap';
 
+require('markdown-it');
+require('markdown-it-footnote');
+require('codemirror/lib/codemirror');
+require('codemirror/addon/mode/overlay');
+require('codemirror/mode/xml/xml');
+require('codemirror/mode/markdown/markdown');
+require('codemirror/mode/gfm/gfm');
+require('codemirror/mode/javascript/javascript');
+require('codemirror/mode/css/css');
+require('codemirror/mode/htmlmixed/htmlmixed');
+require('codemirror/mode/gfm/gfm');
+require('codemirror/addon/edit/continuelist');
+require('!!style!css!codemirror/theme/base16-light.css');
+require('!!style!css!codemirror/lib/codemirror.css');
+
 // Angular 2 Material 2
 // TODO(gdi2290): uncomment when material is fixed
 // import '@angular2-material/sidenav';
